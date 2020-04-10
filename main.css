@@ -87,9 +87,8 @@ form a {
   width: 30%;
   margin: auto;
   text-align: center;
-  border: 1px black solid;
+  border: 0.5px #ccc solid;
   border-radius: 4px;
-  box-shadow: 1px 1px #000;
   margin-bottom: 40px;
 }
 
