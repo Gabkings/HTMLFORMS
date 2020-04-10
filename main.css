@@ -67,6 +67,10 @@ form a {
   font-size: small;
 }
 
+.form__header p > a {
+  margin-left: 10px;
+}
+
 .navbar div span a {
   text-decoration: none;
   font-size: small;
@@ -116,10 +120,6 @@ form p {
   font-size: 15px;
   color: #000;
   margin-bottom: 6px;
-}
-
-.form__header p > a {
-  margin-left: 10px;
 }
 
 .header {
