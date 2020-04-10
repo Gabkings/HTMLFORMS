@@ -1,0 +1,24 @@
+{
+  "name": "HTMLFORMS",
+  "version": "1.0.0",
+  "description": "In this project,I rebuild the form used by Mint.com for signing up new users.",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabkings/HTMLFORMS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabkings/HTMLFORMS/issues"
+  },
+  "homepage": "https://github.com/Gabkings/HTMLFORMS#readme",
+  "devDependencies": {
+    "stylelint": "^13.3.1",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}

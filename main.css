@@ -3,13 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  background-color: #f2f2f2;
+  background-color: rgb(236, 238, 241);
 }
+
 .container {
   width: 100%;
   height: 100vh;
-
   padding: 20px;
   text-align: center;
 }
@@ -19,35 +20,58 @@ body {
   position: fixed; /* Set the navbar to fixed position */
   top: 0;
   width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+form a {
+  margin: auto;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.terms a {
+  text-decoration: none;
+  color: rgb(19, 19, 192);
 }
 
 /* Links inside the navbar */
-.navbar a {
+
+.navbar_signin {
   float: right;
   display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 9px 12px;
   text-decoration: none;
-  background-color: blue;
+  background-color: rgb(0, 119, 197);
   margin-right: 30px;
   margin-top: 10px;
   width: 200px;
+  border-radius: 4px;
+}
+
+.navbar div span {
+  display: block;
+  margin-right: 30px;
+  font-size: small;
+}
+
+.navbar div span a {
+  text-decoration: none;
+  font-size: small;
+  color: rgb(88, 163, 223);
 }
 
 .fa {
   margin-right: 20px;
 }
 
-/* Change background on mouse-over */
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
-
 .form_wrapper {
   background-color: rgb(255, 255, 255);
-  height: 93%;
+  height: 92%;
   width: 38%;
   margin: auto;
   text-align: center;
@@ -69,28 +93,20 @@ form {
 
 form h2 {
   margin: auto;
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 20px;
   width: 60%;
-  letter-spacing: 3px;
   color: #000;
+  margin-top: 15px;
   margin-bottom: 20px;
 }
 
 form p {
   margin: auto;
   font-weight: 300;
-  font-size: 16px;
-  letter-spacing: 2px;
+  font-size: 15px;
   color: #000;
-  margin-bottom: 10px;
-}
-
-form a {
-  margin: auto;
-  text-decoration: none;
-  font-size: 14px;
-  margin-bottom: 20px;
+  margin-bottom: 6px;
 }
 
 .header {
@@ -132,7 +148,6 @@ form a {
 
 .header_icons li {
   flex: 1 1 33.33%;
-
   font-size: 17px;
   font-weight: 500;
   text-transform: uppercase;
@@ -149,7 +164,8 @@ label {
 
 input[type="email"],
 input[type="password"],
-input[type="text"] {
+input[type="text"],
+button[type="submit"] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -157,12 +173,14 @@ input[type="text"] {
   border: 1px solid rgb(3, 3, 3);
   border-radius: 5px;
 }
+
 small {
   text-align: right;
   font-size: 10px;
   margin-top: -5px;
   float: left;
 }
+
 .clear-fix {
   display: table;
   clear: both;
@@ -175,19 +193,17 @@ input[type="text"]:focus {
   color: #000;
 }
 
-input[type="submit"] {
+button[type="submit"] {
   width: 100%;
   background-color: hsl(224, 87%, 50%);
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
   cursor: pointer;
+  color: #ffffff;
+  font-weight: 600;
 }
 
 .terms {
-  font-size: 15px;
+  margin-top: 26px;
+  font-size: 12px;
   color: inherit;
 }
 
@@ -195,19 +211,15 @@ input[type="submit"] {
   display: block;
 }
 
-.terms a {
-  text-decoration: none;
-  color: rgb(19, 19, 192);
-}
-
 .capChar {
-  height: 50px;
-  font-size: 12px;
+  height: 34px;
+  font-size: 10px;
   font-weight: 200;
   background-color: #ccc;
-  padding: 10px;
-  margin-bottom: -2px;
-  margin-top: 42px;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 35px;
 }
 
 footer {
