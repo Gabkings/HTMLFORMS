@@ -16,8 +16,6 @@ body {
 }
 
 .navbar {
-  overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
   top: 0;
   width: 100%;
   display: flex;
@@ -81,8 +79,8 @@ form a {
 
 .form_wrapper {
   background-color: rgb(255, 255, 255);
-  height: 92%;
-  width: 38%;
+  height: 100%;
+  width: 30%;
   margin: auto;
   text-align: center;
   border: 1px black solid;
@@ -120,7 +118,7 @@ form p {
 }
 
 .header {
-  width: 40%;
+  width: 30%;
   text-align: center;
   margin: auto;
   margin-bottom: 5px;
@@ -149,7 +147,7 @@ form p {
   margin: 10px auto;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .header_icons img {
